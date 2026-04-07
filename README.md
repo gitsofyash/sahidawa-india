@@ -50,17 +50,17 @@ India has a three-layer healthcare crisis that **no existing platform solves sim
 📸 Report suspicious medicine  →  🗺️ Community counterfeit heatmap  →  📢 District-level alerts
 ```
 
-### Core Features
+### Core Features *(Currently in active development)*
 
 | Feature                       | Description                                                   | Status     |
 | ----------------------------- | ------------------------------------------------------------- | ---------- |
-| 🔍 **Medicine Scanner**       | Scan barcode/QR → verify against CDSCO database               | 🚧 Phase 1 |
-| 🖼️ **AI Image Analysis**      | Cloudinary-powered packaging comparison (real vs fake visual) | 🚧 Phase 2 |
-| 🗣️ **Voice Health Assistant** | Symptoms in 22 Indian languages via Whisper + Sarvam AI       | 🚧 Phase 3 |
-| 🗺️ **Pharmacy & ASHA Map**    | Verified Jan Aushadhi stores + ASHA workers via PostGIS       | 🚧 Phase 2 |
-| 📊 **Counterfeit Heatmap**    | Community-reported fake medicines aggregated by district      | 🚧 Phase 3 |
-| 🤖 **CDSCO Alert Agent**      | Autonomous agent monitoring CDSCO drug recalls every 6h       | 🚧 Phase 3 |
-| 📶 **Offline-First PWA**      | Works without internet after first load (Workbox)             | 🚧 Phase 2 |
+| 🔍 **Medicine Scanner**       | Scan barcode/QR → verify against CDSCO database               | 🚧 Building|
+| 🖼️ **AI Image Analysis**      | Cloudinary-powered packaging comparison (real vs fake visual) | 🔜 Planned |
+| 🗣️ **Voice Health Assistant** | Symptoms in 22 Indian languages via Whisper + Sarvam AI       | 🔜 Planned |
+| 🗺️ **Pharmacy & ASHA Map**    | Verified Jan Aushadhi stores + ASHA workers via PostGIS       | 🔜 Planned |
+| 📊 **Counterfeit Heatmap**    | Community-reported fake medicines aggregated by district      | 🔜 Planned |
+| 🤖 **CDSCO Alert Agent**      | Autonomous agent monitoring CDSCO drug recalls every 6h       | 🔜 Planned |
+| 📶 **Offline-First PWA**      | Works without internet after first load (Workbox)             | 🔜 Planned |
 | 🆓 **100% Free**              | No ads, no premium plan, no data sold. Ever.                  | ✅ Always  |
 
 ---
@@ -309,12 +309,12 @@ We love contributions! SahiDawa is built entirely by the community.
 
 ## 🌏 Supported Languages
 
-SahiDawa supports all 22 Indian scheduled languages. Help us translate!
+SahiDawa aims to support all 22 Indian scheduled languages. (We are just getting started! Help us translate.)
 
 | Language           | Status         | Contributor           |
 | ------------------ | -------------- | --------------------- |
-| English            | ✅ Complete    | Core Team             |
-| Hindi (हिन्दी)     | 🚧 In Progress | —                     |
+| English            | 🚧 In Progress | Core Team             |
+| Hindi (हिन्दी)     | 🔜 Open        | [Claim this issue](#) |
 | Tamil (தமிழ்)      | 🔜 Open        | [Claim this issue](#) |
 | Telugu (తెలుగు)    | 🔜 Open        | [Claim this issue](#) |
 | Kannada (ಕನ್ನಡ)    | 🔜 Open        | [Claim this issue](#) |
@@ -354,8 +354,8 @@ SahiDawa supports all 22 Indian scheduled languages. Help us translate!
 
 This project is participating in **GirlScript Summer of Code 2026** under both:
 
-- 📂 **Open Source Track** — 50+ labeled issues for all skill levels
-- 🤖 **Agents for India Track** — CDSCO autonomous alert agent (Smartly Labs)
+- 📂 **Open Source Track** — 10 labeled issues (Coming Soon) for all skill levels
+- 🤖 **Agents for India Track** — CDSCO autonomous alert agent (Coming Soon)
 
 We are also a **Cloudinary Bounty Partner project** — contributors who build features using Cloudinary's Media API earn bonus GSSoC leaderboard points.
 
@@ -363,9 +363,8 @@ We are also a **Cloudinary Bounty Partner project** — contributors who build f
 
 ## 💬 Community
 
-- **Discord:** [Join SahiDawa Discord](#) _(link coming soon)_
+- **Discord:** [Join SahiDawa Discord](https://discord.gg/dvbDuJVwNa)
 - **GitHub Discussions:** [Discuss ideas & questions](https://github.com/YOUR_USERNAME/sahidawa-india/discussions)
-- **Twitter:** [@SahiDawaIndia](#)
 
 ---
 
