@@ -10,6 +10,8 @@
         "voice_subtitle": "Speak symptoms",
         "pharmacy_map": "Pharmacy Map",
         "pharmacy_subtitle": "Find verified stores",
+        "report_fake": "Report Fake",
+        "report_fake_subtitle": "Report suspicious medicine",
         "search_placeholder": "Search medicine or batch...",
         "search_button": "Search"
     },
@@ -29,8 +31,17 @@
         "example_text": "\"I have fever and cough\"",
         "assistant_label": "AI Assistant",
         "assistant_value": "Listening 24/7",
+        "skip_to_main_content": "Skip to main content",
         "listening_placeholder": "Start speaking about your symptoms…",
         "listening_status": "Listening for symptoms",
+        "announcements": {
+            "recording_started": "Recording started",
+            "processing_started": "Processing your symptoms",
+            "results_ready": "Results ready"
+        },
+        "streaming_connecting_hint": "Connecting to live transcription…",
+        "streaming_live_hint": "Live transcript is updating",
+        "streaming_fallback_hint": "Connection is unstable. SahiDawa will finish processing after you stop speaking.",
         "animation_toggle_label": "Voice animations",
         "animation_live_label": "Live waveform",
         "animation_reduced_motion_label": "Reduced motion",
@@ -124,5 +135,41 @@
         "footer": "SahiDawa will automatically sync when your connection returns.",
         "cachedContent": "You can still access previously loaded content",
         "noCache": "This page was not cached and is not available offline"
+    },
+    "contact": {
+        "badge": "GSSoC 2026 Open Source Project",
+        "heroTitle": {
+            "prefix": "Get In",
+            "highlight": "Touch"
+        },
+        "heroSubtitle": "Have questions, ideas, or want to contribute? We would love to hear from you.",
+        "cards": {
+            "email": {
+                "title": "Email Us",
+                "description": "For privacy queries, partnerships, or serious concerns."
+            },
+            "discord": {
+                "title": "Discord Community",
+                "description": "Join contributors, ask questions, and get announcements.",
+                "cta": "Join Discord"
+            },
+            "bug": {
+                "title": "Report a Bug",
+                "description": "Found an issue? Open a GitHub issue and we will fix it fast.",
+                "cta": "Open Issue"
+            },
+            "contribute": {
+                "title": "Contribute",
+                "description": "Want to help build SahiDawa? Read our contributing guide.",
+                "cta": "Read Guide"
+            }
+        },
+        "quickLinks": {
+            "title": "Helpful Links",
+            "about": "About SahiDawa",
+            "privacy": "Privacy Policy",
+            "faq": "FAQ"
+        },
+        "footer": "SahiDawa is free, open-source, and built for 1.4 billion Indians. No ads. No premium. No data sold. Ever."
     }
 }
